@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background-color: #0b2e26;
+  color: #f5e4c4;
+  line-height: 1.6;
+}
+
+.top-bar {
+  background-color: #122f24;
+  border-bottom: 1px solid #4f664f;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.top-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.small-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.name-tagline {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.site-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  color: #d4af37;
+}
+
+.mini-tagline {
+  font-size: 0.8rem;
+  color: #c8b16a;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul li {
+  margin-left: 20px;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #c8b16a;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.main-nav ul li a:hover {
+  color: #e2c97a;
+}
+
+.hero {
+  position: relative;
+  height: 50vh;
+  background: #0e3b2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+  margin: 0 0 10px;
+  color: #d4af37;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #c8b16a;
+}
+
+.cards {
+  padding: 60px 20px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #122f24;
+  border: 1px solid #2c5143;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-icon {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-family: 'Cinzel', serif;
+  margin: 10px 0;
+  color: #d4af37;
+}
+
+.card p {
+  color: #e6d8b3;
+  font-size: 0.9rem;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-family: 'Cinzel', serif;
+  color: #d4af37;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section p,
+.section ul {
+  color: #e6d8b3;
+  font-size: 0.95rem;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.section li {
+  margin-bottom: 8px;
+}
+
+.site-footer {
+  background-color: #122f24;
+  color: #c8b16a;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #4f664f;
+}
