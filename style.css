@@ -181,6 +181,10 @@ body {
   border-top: 1px solid #4f664f;
 
 /* style for mailto link in footer */
+a[href^="maito"] {
+  color: #F1E5AC !important;
+}
+/* fix mailto link color */
 a[href^="mailto"] {
   color: #F1E5AC !important;
-}}
+}
