@@ -180,10 +180,14 @@ body {
   padding: 20px;
   border-top: 1px solid #4f664f;
 
-/* Target the link and any text inside it */
-a[href^="mailto"],
-a[href^="mailto"] * {
+/* Targeted fix for paragraph mailto links */
+p a[href^="mailto"] {
+    color: #f7f1d5 !important;
+    text-decoration-color: #F1E5AC !important; /* Colors the underline gold too */
+}
+
+/* ensures visited links don't turn purple */
+p a[href^="mailto"]:visited {
     color: #F1E5AC !important;
-    text-decoration-color: #F1E5AC !important; /* Colors the underline too */
 }
 
