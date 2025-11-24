@@ -180,12 +180,10 @@ body {
   padding: 20px;
   border-top: 1px solid #4f664f;
 
-/* style for mailto link in footer */
-/* Force mailto links to be gold in all states */
-a[href^="mailto"], 
-a[href^="mailto"]:visited, 
-a[href^="mailto"]:hover, 
-a[href^="mailto"]:active {
-  color: #f7f1d5 !important;
+/* Target the link and any text inside it */
+a[href^="mailto"],
+a[href^="mailto"] * {
+    color: #F1E5AC !important;
+    text-decoration-color: #F1E5AC !important; /* Colors the underline too */
 }
 
