@@ -186,6 +186,6 @@ a[href^="mailto"],
 a[href^="mailto"]:visited, 
 a[href^="mailto"]:hover, 
 a[href^="mailto"]:active {
-  color: #F1E5AC !important;
+  color: #f7f1d5 !important;
 }
 
