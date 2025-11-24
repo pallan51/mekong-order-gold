@@ -182,6 +182,6 @@ body {
 
 /* style for mailto link in footer */
 a[href^="mailto"] {
-  color: #F1E5AC;
+  color: #F1E5AC !important;
 }
 }
