@@ -180,6 +180,8 @@ body {
   padding: 20px;
   border-top: 1px solid #4f664f;
 
+}
+
 /* Targeted fix for paragraph mailto links */
 p a[href^="mailto"] {
     color: #f7f1d5 !important;
@@ -191,3 +193,32 @@ p a[href^="mailto"]:visited {
     color: #F1E5AC !important;
 }
 
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 110px; }
+a { color: #e2c97a; text-underline-offset: 4px; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #f7f1d5; outline-offset: 5px; }
+.logo-area { text-decoration: none; }
+.skip-link { position: absolute; left: 12px; top: -80px; z-index: 2000; padding: 12px; background: #122f24; }
+.skip-link:focus { top: 8px; }
+.hero { height: auto; min-height: 520px; padding: 64px 24px; }
+.hero-text { max-width: 800px; }
+.hero-text .eyebrow, .eyebrow { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: #e2c97a; }
+.hero-text .lead { font-size: 1.55rem; color: #f5e4c4; }
+.hero-text .hero-description { max-width: 690px; font-size: 1rem; margin: 24px auto 32px; color: #e6d8b3; }
+.hero-text .hero-note { font-size: .8rem; margin-top: 22px; }
+.button { display: inline-block; background: #d4af37; color: #102d24; padding: 14px 23px; border: 1px solid #d4af37; border-radius: 3px; font-weight: 700; text-decoration: none; }
+.button:hover { background: #e2c97a; }
+.section { max-width: 840px; padding: 48px 24px; }
+.section p { line-height: 1.95; }
+.cards { background: #09261f; padding: 48px 24px; }
+.cards h2 { font-family: 'Cinzel',serif; text-align: center; color: #d4af37; margin: 0 0 32px; }
+.card { text-align: left; padding: 28px; }
+.card-number { font-size: .66rem; letter-spacing: .1em; color: #c8b16a; }
+.invitation { text-align: center; border-top: 1px solid #4f664f; border-bottom: 1px solid #4f664f; }
+.section .small { font-size: .8rem; }
+details { padding: 18px 0; border-bottom: 1px solid #2c5143; }
+summary { cursor: pointer; color: #e2c97a; }
+.site-footer p { margin: 8px 0; }
+@media(max-width:640px) { .top-container { align-items: flex-start; gap: 12px; flex-wrap: wrap; } .site-name { font-size: 1.05rem; } .small-logo { width: 46px; height: 46px; } .mini-tagline { font-size: .64rem; } .main-nav { width: 100%; } .main-nav ul { gap: 24px; } .main-nav ul li { margin: 0; } .main-nav ul li a { font-size: .8rem; } .hero-text h1 { font-size: 2.15rem; } .hero-text .lead { font-size: 1.25rem; } .hero { min-height: auto; padding: 48px 22px; } .cards-grid { grid-template-columns: 1fr; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } }
